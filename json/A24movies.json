@@ -1,0 +1,169 @@
+{
+  "a24movies": [
+
+    {
+      "id": 1,
+      "poster": "images/01.jpg",
+      "title": "Hereditary",
+      "year": 2018,
+      "length": "2h 7m",
+      "director": "Ari Aster",
+      "synopsis": "Tras la muerte de su abuela, una familia se enfrenta a oscuros secretos y eventos aterradores que los llevarán al límite."
+    },
+    {
+      "id": 2,
+      "poster": "images/02.jpg",
+      "title": "Lady Bird",
+      "year": 2017,
+      "length": "1h 34m",
+      "director": "Greta Gerwig",
+      "synopsis": "Una adolescente de Sacramento enfrenta los retos de la vida, la familia y la búsqueda de identidad en su último año de secundaria."
+    },
+    {
+      "id": 3,
+      "poster": "images/03.jpg",
+      "title": "The Lighthouse",
+      "year": 2019,
+      "length": "1h 49m",
+      "director": "Robert Eggers",
+      "synopsis": "Dos hombres que trabajan en un faro empiezan a perder la cordura mientras se enfrentan a la soledad y sus propios demonios."
+    },
+    {
+      "id": 4,
+      "poster": "images/04.jpg",
+      "title": "Uncut Gems",
+      "year": 2019,
+      "length": "2h 15m",
+      "director": "Josh y Benny Safdie",
+      "synopsis": "Un joyero de Nueva York arriesga todo en una apuesta que podría liberarlo de sus problemas, pero enfrenta peligros crecientes."
+    },
+    {
+      "id": 5,
+      "poster": "images/05.jpg",
+      "title": "Midsommar",
+      "year": 2019,
+      "length": "2h 28m",
+      "director": "Ari Aster",
+      "synopsis": "Una pareja viaja a Suecia para un extraño festival de verano, pero lo que parece un retiro tranquilo se convierte en una pesadilla."
+    },
+    {
+      "id": 6,
+      "poster": "images/06.jpg",
+      "title": "Ex Machina",
+      "year": 2015,
+      "length": "1h 48m",
+      "director": "Alex Garland",
+      "synopsis": "Un joven programador participa en un experimento con inteligencia artificial que lo lleva a cuestionar la ética y la humanidad."
+    },
+    {
+      "id": 7,
+      "poster": "images/07.jpg",
+      "title": "Moonlight",
+      "year": 2016,
+      "length": "1h 51m",
+      "director": "Barry Jenkins",
+      "synopsis": "La vida de un hombre afroamericano es explorada a través de tres etapas, luchando con su identidad y sexualidad."
+    },
+    {
+      "id": 8,
+      "poster": "images/08.jpg",
+      "title": "The Witch",
+      "year": 2015,
+      "length": "1h 32m",
+      "director": "Robert Eggers",
+      "synopsis": "En la Nueva Inglaterra del siglo XVII, una familia enfrenta fuerzas sobrenaturales que amenazan con destruirlos."
+    },
+    {
+      "id": 9,
+      "poster": "images/09.jpg",
+      "title": "Room",
+      "year": 2015,
+      "length": "1h 58m",
+      "director": "Lenny Abrahamson",
+      "synopsis": "Una joven y su hijo escapan del encierro en una pequeña habitación y enfrentan el mundo exterior por primera vez."
+    },
+    {
+      "id": 10,
+      "poster": "images/10.jpg",
+      "title": "Good Time",
+      "year": 2017,
+      "length": "1h 41m",
+      "director": "Josh y Benny Safdie",
+      "synopsis": "Después de un robo fallido, un hombre hace lo imposible para salvar a su hermano en una carrera contra el tiempo."
+    },
+    {
+      "id": 11,
+      "poster": "images/11.jpg",
+      "title": "The Florida Project",
+      "year": 2017,
+      "length": "1h 51m",
+      "director": "Sean Baker",
+      "synopsis": "Una niña y su madre viven en un motel cerca de Disney World, enfrentando dificultades económicas y personales."
+    },
+    {
+      "id": 12,
+      "poster": "images/12.jpg",
+      "title": "Swiss Army Man",
+      "year": 2016,
+      "length": "1h 37m",
+      "director": "Daniel Scheinert y Daniel Kwan",
+      "synopsis": "Un hombre perdido en una isla desierta entabla una amistad con un cadáver, con el que comienza una aventura surrealista."
+    },
+    {
+      "id": 13,
+      "poster": "images/13.jpg",
+      "title": "Eighth Grade",
+      "year": 2018,
+      "length": "1h 34m",
+      "director": "Bo Burnham",
+      "synopsis": "Una joven lucha por sobrevivir el último año de secundaria y navegar la presión social en la era de las redes sociales."
+    },
+    {
+      "id": 14,
+      "poster": "images/14.jpg",
+      "title": "Under the Skin",
+      "year": 2013,
+      "length": "1h 48m",
+      "director": "Jonathan Glazer",
+      "synopsis": "Una extraterrestre en Escocia atrae a hombres desprevenidos, enfrentando cuestiones de humanidad y deseo."
+    },
+    {
+      "id": 15,
+      "poster": "images/15.jpg",
+      "title": "The Killing of a Sacred Deer",
+      "year": 2017,
+      "length": "2h 1m",
+      "director": "Yorgos Lanthimos",
+      "synopsis": "Un cirujano enfrenta una terrible venganza por un error pasado, enredando a su familia en un dilema moral."
+    },
+    {
+      "id": 16,
+      "poster": "images/16.jpg",
+      "title": "Waves",
+      "year": 2019,
+      "length": "2h 15m",
+      "director": "Trey Edward Shults",
+      "synopsis": "Una familia afroamericana enfrenta una serie de tragedias y aprendizajes mientras lidian con el amor y el perdón."
+    },
+    {
+      "id": 17,
+      "poster": "images/17.jpg",
+      "title": "First Reformed",
+      "year": 2017,
+      "length": "1h 53m",
+      "director": "Paul Schrader",
+      "synopsis": "Un pastor lucha con su fe y su pasado mientras una tragedia ambiental lo lleva al borde de la desesperación."
+    },
+    {
+      "id": 18,
+      "poster": "images/18.jpg",
+      "title": "Minari",
+      "year": 2020,
+      "length": "1h 55m",
+      "director": "Lee Isaac Chung",
+      "synopsis": "Una familia coreano-americana busca el sueño americano al instalarse en una zona rural de Arkansas en los años 80."
+    }
+  ]
+}
+  
+

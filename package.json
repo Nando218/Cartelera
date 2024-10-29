@@ -1,0 +1,17 @@
+{
+  "name": "a24movies",
+  "version": "1.0.0",
+  "description": "Películas re locas",
+  "main": "index.html",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Nando",
+  "license": "ISC"
+}
