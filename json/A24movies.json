@@ -1,9 +1,9 @@
 {
-  "A24movies": [
+  "a24movies": [
 
     {
       "id": 1,
-      "poster": "../images/01.jpg",
+      "poster": "images/01.jpg",
       "title": "Hereditary",
       "year": 2018,
       "length": "2h 7m",
@@ -12,7 +12,7 @@
     },
     {
       "id": 2,
-      "poster": "../images/02.jpg",
+      "poster": "images/02.jpg",
       "title": "Lady Bird",
       "year": 2017,
       "length": "1h 34m",
@@ -21,7 +21,7 @@
     },
     {
       "id": 3,
-      "poster": "../images/03.jpg",
+      "poster": "images/03.jpg",
       "title": "The Lighthouse",
       "year": 2019,
       "length": "1h 49m",
@@ -30,7 +30,7 @@
     },
     {
       "id": 4,
-      "poster": "../images/04.jpg",
+      "poster": "images/04.jpg",
       "title": "Uncut Gems",
       "year": 2019,
       "length": "2h 15m",
@@ -39,7 +39,7 @@
     },
     {
       "id": 5,
-      "poster": "../images/05.jpg",
+      "poster": "images/05.jpg",
       "title": "Midsommar",
       "year": 2019,
       "length": "2h 28m",
@@ -48,7 +48,7 @@
     },
     {
       "id": 6,
-      "poster": "../images/06.jpg",
+      "poster": "images/06.jpg",
       "title": "Ex Machina",
       "year": 2015,
       "length": "1h 48m",
@@ -57,7 +57,7 @@
     },
     {
       "id": 7,
-      "poster": "../images/07.jpg",
+      "poster": "images/07.jpg",
       "title": "Moonlight",
       "year": 2016,
       "length": "1h 51m",
@@ -66,7 +66,7 @@
     },
     {
       "id": 8,
-      "poster": "../images/08.jpg",
+      "poster": "images/08.jpg",
       "title": "The Witch",
       "year": 2015,
       "length": "1h 32m",
@@ -75,7 +75,7 @@
     },
     {
       "id": 9,
-      "poster": "../images/09.jpg",
+      "poster": "images/09.jpg",
       "title": "Room",
       "year": 2015,
       "length": "1h 58m",
@@ -84,7 +84,7 @@
     },
     {
       "id": 10,
-      "poster": "../images/010.jpg",
+      "poster": "images/10.jpg",
       "title": "Good Time",
       "year": 2017,
       "length": "1h 41m",
@@ -93,7 +93,7 @@
     },
     {
       "id": 11,
-      "poster": "../images/11.jpg",
+      "poster": "images/11.jpg",
       "title": "The Florida Project",
       "year": 2017,
       "length": "1h 51m",
@@ -102,7 +102,7 @@
     },
     {
       "id": 12,
-      "poster": "../images/12.jpg",
+      "poster": "images/12.jpg",
       "title": "Swiss Army Man",
       "year": 2016,
       "length": "1h 37m",
@@ -111,7 +111,7 @@
     },
     {
       "id": 13,
-      "poster": "../images/13.jpg",
+      "poster": "images/13.jpg",
       "title": "Eighth Grade",
       "year": 2018,
       "length": "1h 34m",
@@ -120,7 +120,7 @@
     },
     {
       "id": 14,
-      "poster": "../images/14.jpg",
+      "poster": "images/14.jpg",
       "title": "Under the Skin",
       "year": 2013,
       "length": "1h 48m",
@@ -129,7 +129,7 @@
     },
     {
       "id": 15,
-      "poster": "../images/15.jpg",
+      "poster": "images/15.jpg",
       "title": "The Killing of a Sacred Deer",
       "year": 2017,
       "length": "2h 1m",
@@ -138,7 +138,7 @@
     },
     {
       "id": 16,
-      "poster": "../images/16.jpg",
+      "poster": "images/16.jpg",
       "title": "Waves",
       "year": 2019,
       "length": "2h 15m",
@@ -147,7 +147,7 @@
     },
     {
       "id": 17,
-      "poster": "../images/17.jpg",
+      "poster": "images/17.jpg",
       "title": "First Reformed",
       "year": 2017,
       "length": "1h 53m",
@@ -156,7 +156,7 @@
     },
     {
       "id": 18,
-      "poster": "../images/18.jpg",
+      "poster": "images/18.jpg",
       "title": "Minari",
       "year": 2020,
       "length": "1h 55m",

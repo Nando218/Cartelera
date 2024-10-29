@@ -1,6 +1,6 @@
-const requestURL = '../json/A24movies';
+const requestURL = "json/a24movies.json";
 
-// función asíncroma
+//funcion asincrona
 
 async function fetchMoviesJson() {
   const response = await fetch(requestURL);
@@ -8,26 +8,30 @@ async function fetchMoviesJson() {
   return movies;
 }
 
-fetchMoviesJson().then(movies => {
-  for (let index = 0; index < movies.A24movies.length; index++) {
-    const moviesSection = document.getElementsById("movieSection");
-    let id = movies.A24movies[index].id;
-    let poster = movies.A24movies[index].poster;
-    let title = movies.A24movies[index].title;
-    let year = movies.A24movies[index].year;
-    let length = movies.A24movies[index].length;
-    let director = movies.A24movies[index].director;
-    let synopsis = movies.A24movies[index].synospsis;
+fetchMoviesJson().then( movies => {
+  for (let index = 0; index < movies.a24movies.length; index++) {
+    const movieSection = document.getElementById("movieSection");
 
-    moviesSection.innerHTML += `
-    <div class="card" style="width: 18rem;">
-  <img src="${poster}" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">${title}</h5>
-    <p class="card-text">${synopsis}</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-    `
+    let id = movies.a24movies[index].id;
+    let poster = movies.a24movies[index].poster;
+    let title = movies.a24movies[index].title;
+    let year = movies.a24movies[index].year;
+    let length = movies.a24movies[index].length;
+    let director = movies.a24movies[index].director;
+    let synopsis = movies.a24movies[index].synopsis;
+
+    movieSection.innerHTML += `
+        <div class="col-md-4 mb-4">
+        <div class="card h-100" style="width: 24rem;">
+            <img src="${poster}" class="card-img-top" alt="documentary poster">
+            <div class="card-body">
+                <h5 class="card-title">${title}</h5>
+                <p class="card-title><span class="h6">${year}</span> . ${length}</p>
+                <h6 class="card-title">${director}</h6>
+                <p class="card-text mb-4">${synopsis}</p>
+            </div>
+        </div>
+        </div>
+        `;
   }
 });
