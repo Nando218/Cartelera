@@ -24,13 +24,46 @@
     .card:hover {
       transform: scale(1.05);
       /* Aumentar el tamaño un 5% */
+    }
 
+    /* Nueva clase para la animación */
+    .fade-in {
+      opacity: 0; /* Comienza completamente transparente */
+      animation: fadeIn 1s forwards; /* Duración de la animación */
+    }
 
+    @keyframes fadeIn {
+      to {
+        opacity: 1; /* Termina completamente visible */
+      }
+    }
+
+    /* Estilos para el fondo */
+    body {
+      background-image: url(./images/fondo.png);
+      background-attachment: fixed; /* Fija la imagen al viewport */
+      background-size: cover; /* Cubre todo el viewport */
+      background-position: center; /* Centra la imagen */
+      background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    }
+
+    /* Estilo para el header fijo */
+    header {
+      position: fixed; /* Fija el encabezado en la parte superior */
+      top: 0; /* Alinea el encabezado al tope */
+      left: 0; /* Alinea el encabezado al lado izquierdo */
+      width: 100%; /* Hace que el encabezado ocupe todo el ancho */
+      z-index: 1000; /* Asegura que el encabezado esté por encima de otros elementos */
+    }
+
+    /* Espaciado adicional para el contenido principal */
+    main {
+      margin-top: 70px; /* Agrega margen superior para evitar que el contenido se esconda detrás del encabezado */
     }
   </style>
 </head>
 
-<body class="bg-dark bg-gradient">
+<body class="bg-dark fade-in">
 
   <header>
     <nav class="navbar navbar bg-secondary">
@@ -41,19 +74,18 @@
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
           <button class="btn btn-danger" type="submit">Buscar</button>
-
         </form>
       </div>
     </nav>
-
   </header>
+  
   <main>
     <nav class="navbar ">
-
       <div class="container text-center mt-5">
         <div class="row" id="movieSection"></div>
       </div>
   </main>
+  
   <footer>
     <footer class="bg-body-tertiary text-center text-lg-start">
       <!-- Copyright -->
@@ -66,6 +98,7 @@
       <!-- Copyright -->
     </footer>
   </footer>
+  
   <script src="main.js"></script>
 </body>
 

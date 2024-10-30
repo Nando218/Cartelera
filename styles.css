@@ -1,0 +1,14 @@
+/* Agrega esto al estilo existente */
+.fade-in {
+    opacity: 0; /* Comienza completamente transparente */
+    animation: fadeIn 2s forwards; /* Duración de la animación */
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1; /* Termina completamente visible */
+    }
+  }
+
+  
+  
